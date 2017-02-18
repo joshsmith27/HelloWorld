@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A site to say hello",
   "main": "index.js",
-
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.14.1"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
