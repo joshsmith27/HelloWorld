@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A site to say hello",
   "main": "index.js",
+  "start": "node index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
