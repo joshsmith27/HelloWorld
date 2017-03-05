@@ -71,7 +71,7 @@ body {
   line-height: 70px;
   padding-right: 10px;
   font-size: 3vw;
-  height: 74px;
+  height: 73px;
   text-align: right;
   color: white;
   background: #13ABAC; }
@@ -200,17 +200,17 @@ body {
 
 #sportsPug-container {
   background: url("../Images/Screen Shot 2017-02-28 at 5.58.29 PM.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat; }
 
 #twitter-clone-container {
   background: url("../Images/Screen Shot 2017-03-01 at 5.01.17 PM.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat; }
 
 #itunes-clone-container {
   background: url("../Images/Screen Shot 2017-03-01 at 6.30.33 PM.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat; }
 
 .hidden-visit {
