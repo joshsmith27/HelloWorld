@@ -1,28 +1,154 @@
 <!DOCTYPE html>
-<html ng-app = "joshuarsmith">
-  <head>
-    <meta charset="utf-8">
-    <title>JoshuaRSmith</title>
-    <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton|Poiret+One">
-    <link rel="stylesheet" href="/styles/intro.css">
-    <link rel="stylesheet" href="/styles/font-awesome-4.7.0 3/css/font-awesome.min.css">
-  </head>
-  <body>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JoshuaRSmith</title>
+  <link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton|Poiret+One">
+  <link rel="stylesheet" href="/styles/intro.css">
+  <link rel="stylesheet" href="/styles/font-awesome-4.7.0 3/css/font-awesome.min.css">
+</head>
+<body>
 
-  <ui-view></ui-view>
-  </body>
-    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
-    <script src = "https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.4.0/svg.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src = "/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
-    <script src = "/JS/app.js"></script>
-    <script src = "/JS/controllers/intro.js"></script>
-    <script src = "/JS/controllers/introAngularCtrl.js"></script>
+  <main class="intro-main-container">
+    <p class="introPageHeader">
+      <em id="joshua">JOSHUA </em><em id="richard"> RICHARD</em><em id="smith"> SMITH</em>
+    </p>
+    <div class="Image-description-banner">
+      <div class="banner-container">
+        <div class="Banner">
+          I'm a passionate creator.
+        </div>
+        <div class="additional-information-container">
+          <p>
+            I am a full stack web developer, and love writing awesome code.
+            <br>
+            I love learning new languages, frameworks, and libaries.
+            <br>
+            I have a passion for solving problems.
+          </p>
+        </div>
+      </div>
+
+      <img class="portofolio-Image"src="../Images/LJformals081.jpg">
+
+    </div>
+    <hr class="first-break-line">
+    <div class="skills-containers">
+      <h1 class="Skill-headers">KNOWLEDGE BASE</h1>
+      <div class="div-icon-container">
+        <div class="icon-container">
+          <i class="devicon-html5-plain-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-css3-plain-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-javascript-plain"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-nodejs-plain"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-postgresql-plain-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-amazonwebservices-plain-wordmark"></i>
+        </div>
+      </div>
+      <div class="div-icon-container">
+        <div class="icon-container">
+          <i class="devicon-sass-original"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-angularjs-plain-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-jquery-plain-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-heroku-original-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i class="devicon-bitbucket-plain-wordmark"></i>
+        </div>
+        <div class="icon-container">
+          <i style="font-size: 1vw; font-family: raleway;"  >
+            Express
+            &amp;
+            Massive
+          </i>
+        </div>
+      </div>
+    </div>
+    <hr class="line-breaks">
+    <div class="skills-containers">
+      <h1 class="Skill-headers" >CURRENTLY LEARNING</h1>
+      <div class="div-icon-container">
+        <div id="currently-learning" class="icon-container">
+          <div class="div-icon-container">
+            <div class="icon-container">
+              <i class="devicon-java-plain-wordmark"></i>
+            </div>
+            <div class="icon-container">
+              <i class="devicon-react-original-wordmark"></i>
+            </div>
+            <div class="icon-container">
+              <i class="devicon-cplusplus-plain"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="line-breaks" >
+    <div class="downloaded-information-container">
+      <div class="downloadable-container">
+        <h3>Resume
+          <br>
+          <br>
+          <a class="downloads"href="/downloads/JoshuaRichardSmithResume (3).pdf"download="Josh's Resume"><i class="fa fa-file-pdf-o" aria-hidden="true"  id="pdfIcon"></i></a>
+        </h3>
+      </div>
+      <div class="downloadable-container">
+        <h3>Cover Letter
+          <br>
+          <br>
+          <a class="downloads"href="/downloads/JoshuaRichardSmithCoverLetter (5).pdf"download="Josh's Cover Letter"><i class="fa fa-file-pdf-o" aria-hidden="true" id="pdfIcon"></i></a>
+        </h3>
+      </div>
+    </div>
+    <hr class="line-breaks">
+    <div class="showcase-container">
+      <h1 class="Skill-headers" >Sites</h1>
+      <div class="main-carousel">
+        <div style = "width: %100;" class="carousel-cell"id="sportsPug-container">
+          <a href="http://www.sportpugs.com/#/login" target="_blank"><div class="hidden-visit">
+            VISIT SITE
+          </div>
+        </a>
+      </div>
+      <div style = "width: %100;" class="carousel-cell" id="twitter-clone-container">
+        <a href="https://devtunes.herokuapp.com/" target="_blank"><div class="hidden-visit">
+          VISIT SITE
+        </div>
+      </a>
+    </div>
+    <div style = "width: %100;" class="carousel-cell" id="itunes-clone-container">
+      <a href="https://jqueryexamplesjrs.herokuapp.com/" target="_blank"><div class="hidden-visit">
+        VISIT SITE
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+</main>
+</body>
+<script src = "https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src = "/bower_components/flickity/dist/flickity.pkgd.min.js"></script>
+<script src = "/JS/controllers/intro.js"></script>
 </html>
