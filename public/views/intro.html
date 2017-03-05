@@ -1,50 +1,132 @@
-<main id = "shrinkTrigger" class="intro-main-container">
-  <div ng-style = "portfolioPictureDexriptionContainer"class="portfolioPicture-description-container">
-    <p ng-style = "showPortfolio"class="introPageHeader">JOSHUA RICHARD SMITH</p>
-    <div class="profilePicture-container">
-      <img ng-style = "showPortfolio"class="profilePicture"src="../Images/IMG_20161105_093200.jpg">
+<main class="intro-main-container">
+  <p class="introPageHeader">
+    <em id="joshua">JOSHUA </em><em id="richard"> RICHARD</em><em id="smith"> SMITH</em>
+  </p>
+  <div class="Image-description-banner">
+    <div class="banner-container">
+      <div class="Banner">
+        I'm a passionate creator.
+      </div>
+      <div class="additional-information-container">
+        <p>
+          I am a full stack web developer, and love writing awesome code.
+          <br>
+          I love learning new languages, frameworks, and libaries.
+          <br>
+          I have a passion for solving problems.
+        </p>
+      </div>
     </div>
+
+    <img class="portofolio-Image"src="../Images/LJformals081.jpg">
+
   </div>
-  <div class="typewriter-container">
-    <div  ng-style = "shrinkContainer" id = "trigger-typewriter" class="typewriter">
-      <h1 ng-style = "shrink" >Hello, world.</h1>
-    </div>
-  </div>
-
-    <a  href="../downloads/JoshuaRichardSmithResume.pdf" download>
-      <button class="download-buttons"id="dowload-Resume" type="button" name="button">Resume</button>
-      </a>
-
-
-    <a href="../downloads/JoshuaRichardSmithCoverLetter.pdf" download>
-      <button  class="download-buttons" id="download-Cover-Letter"type="button" name="button">Cover Letter</button>
-    </a>
-  <!-- <div class="Skills-container">
-    <div class="devIcons">
-      <div>
-        <p class="devSkillHeaders"> Knowledge Base </p>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-sass-original"></i>
+  <hr class="first-break-line">
+  <div class="skills-containers">
+    <h1 class="Skill-headers">KNOWLEDGE BASE</h1>
+    <div class="div-icon-container">
+      <div class="icon-container">
+        <i class="devicon-html5-plain-wordmark"></i>
+      </div>
+      <div class="icon-container">
+        <i class="devicon-css3-plain-wordmark"></i>
+      </div>
+      <div class="icon-container">
         <i class="devicon-javascript-plain"></i>
-        <i class="devicon-jquery-plain"></i>
-        <i class="devicon-angularjs-plain"></i>
+      </div>
+      <div class="icon-container">
         <i class="devicon-nodejs-plain"></i>
-        <i class="devicon-amazonwebservices-original"></i>
-        <i class="devicon-heroku-original"></i>
-        <i class="devicon-postgresql-plain"></i>
-        <i class="devicon-bitbucket-plain"></i>
-        <i class="devicon-github-plain"></i>
       </div>
-
-      <div class="currently-learning">
-        <p class="devSkillHeaders"> Currently Learning</p>
-        <i class="devicon-react-original"></i>
-        <i class="devicon-java-plain"></i>
-        <i class="devicon-cplusplus-plain"></i>
+      <div class="icon-container">
+        <i class="devicon-postgresql-plain-wordmark"></i>
       </div>
-
+      <div class="icon-container">
+        <i class="devicon-amazonwebservices-plain-wordmark"></i>
+      </div>
     </div>
-  </div> -->
-  <script src = "/JS/controllers/intro.js"></script>
+    <div class="div-icon-container">
+      <div class="icon-container">
+        <i class="devicon-sass-original"></i>
+      </div>
+      <div class="icon-container">
+        <i class="devicon-angularjs-plain-wordmark"></i>
+      </div>
+      <div class="icon-container">
+        <i class="devicon-jquery-plain-wordmark"></i>
+      </div>
+      <div class="icon-container">
+        <i class="devicon-heroku-original-wordmark"></i>
+      </div>
+      <div class="icon-container">
+        <i class="devicon-bitbucket-plain-wordmark"></i>
+      </div>
+      <div class="icon-container">
+        <i style="font-size: 1vw; font-family: raleway;"  >
+          Express
+          &amp;
+          Massive
+        </i>
+      </div>
+    </div>
+  </div>
+  <hr class="line-breaks">
+  <div class="skills-containers">
+    <h1 class="Skill-headers" >CURRENTLY LEARNING</h1>
+    <div class="div-icon-container">
+      <div id="currently-learning" class="icon-container">
+        <div class="div-icon-container">
+          <div class="icon-container">
+            <i class="devicon-java-plain-wordmark"></i>
+          </div>
+          <div class="icon-container">
+            <i class="devicon-react-original-wordmark"></i>
+          </div>
+          <div class="icon-container">
+            <i class="devicon-cplusplus-plain"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="line-breaks" >
+  <div class="downloaded-information-container">
+    <div class="downloadable-container">
+      <h3>Resume
+        <br>
+        <br>
+        <a class="downloads"href="../downloads/JoshuaRichardSmithResume.pdf"download="Josh's Resume"><i class="fa fa-file-pdf-o" aria-hidden="true"  id="pdfIcon"></i></a>
+      </h3>
+    </div>
+    <div class="downloadable-container">
+      <h3>Cover Letter
+        <br>
+        <br>
+        <a class="downloads"href="../downloads/JoshuaRichardSmithCoverLetter.pdf"download="Josh's Cover Letter"><i class="fa fa-file-pdf-o" aria-hidden="true" id="pdfIcon"></i></a>
+      </h3>
+    </div>
+  </div>
+  <hr class="line-breaks">
+  <div class="showcase-container">
+    <h1 class="Skill-headers" >Sites</h1>
+    <div class="main-carousel">
+      <div style = "width: %100;" class="carousel-cell"id="sportsPug-container">
+        <a href="http://www.sportpugs.com/#/login" target="_blank"><div class="hidden-visit">
+          VISIT SITE
+        </div>
+      </a>
+    </div>
+    <div style = "width: %100;" class="carousel-cell" id="twitter-clone-container">
+      <a href="https://devtunes.herokuapp.com/" target="_blank"><div class="hidden-visit">
+        VISIT SITE
+      </div>
+    </a>
+  </div>
+  <div style = "width: %100;" class="carousel-cell" id="itunes-clone-container">
+    <a href="https://jqueryexamplesjrs.herokuapp.com/" target="_blank"><div class="hidden-visit">
+      VISIT SITE
+    </div>
+  </a>
+</div>
+</div>
+</div>
 </main>
