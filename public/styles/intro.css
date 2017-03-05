@@ -37,13 +37,17 @@ body {
   width: 50%; }
 
 .Image-description-banner {
+  width: 87%;
+  margin: auto;
   display: flex;
+  justify-content: center;
   height: 500px; }
 
 .portofolio-Image {
   position: absolute;
+  right: 9%;
   z-index: -2;
-  margin-left: 22%;
+  margin: auto;
   width: 700px;
   height: 500px; }
 
@@ -51,9 +55,11 @@ body {
   text-align: -webkit-right;
   padding-right: 22px;
   margin-top: 372px;
+  right: 48%;
   width: 58%;
-  height: 128px;
-  background: white; }
+  height: 130px;
+  background: white;
+  position: absolute; }
 
 .Banner {
   position: relative;
