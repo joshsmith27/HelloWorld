@@ -218,8 +218,13 @@ body {
   background-size: contain;
   background-repeat: no-repeat; }
 
-#react-simple-apps {
+#react-blog-container {
   background: url("../Images/Screen Shot 2017-03-18 at 10.55.06 AM.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+#react-simple-apps {
+  background: url("../Images/Screen Shot 2017-03-29 at 8.57.51 PM.png");
   background-size: contain;
   background-repeat: no-repeat; }
 
