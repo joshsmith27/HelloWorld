@@ -1,70 +1,66 @@
-@import 'sassStyle';
 * {
-  font-family: $font-stack;
+  font-family: "Poiret One", cursive, sans-serif;
   text-decoration: none;
-  box-sizing: border-box;
+  box-sizing: border-box; }
 
-}
 /* GLOBAL STYLES */
 body {
   box-sizing: border-box;
   padding: 0px;
-  margin: 0px;
-}
+  margin: 0px; }
 
-.introPageHeader{
+.introPageHeader {
   margin-top: 40px;
   margin-bottom: 120px;
-  color: $greyColor;
+  color: grey;
   width: 100%;
   text-align: center;
   font-size: 6vw;
-  transition: opacity 2.0s;
-}
-#joshua{
+  transition: opacity 2.0s; }
+
+#joshua {
   color: #13abac;
   font-family: 'Monoton', cursive;
-  font-style: normal;
-}
-#richard{
+  font-style: normal; }
+
+#richard {
   color: #0f8d8e;
   font-family: 'Monoton', cursive;
-  font-style: normal;
-}
-#smith{
+  font-style: normal; }
+
+#smith {
   color: #0c6c6d;
   font-family: 'Monoton', cursive;
-  font-style: normal;
-}
-.banner-background{
-  width: 50%
-}
+  font-style: normal; }
+
+.banner-background {
+  width: 50%; }
+
 .Image-description-banner {
   width: 87%;
   margin: auto;
   display: flex;
   justify-content: center;
-  height: 500px;
-}
-.portofolio-Image{
+  height: 500px; }
+
+.portofolio-Image {
   position: absolute;
   right: 9%;
   z-index: -2;
   margin: auto;
   width: 700px;
-  height: 500px;
+  height: 500px; }
 
-}
 .banner-container {
   text-align: -webkit-right;
-      padding-right: 22px;
-      margin-top: 372px;
-      right: 48%;
-      width: 58%;
-      height: 130px;
-      background: white;
-      position: absolute;
-}
+  padding-right: 22px;
+  margin-top: 372px;
+  right: 48%;
+  width: 58%;
+  height: 130px;
+  background: white;
+  position: absolute; }
+
 .Banner {
   position: relative;
   width: 66%;
@@ -78,8 +74,8 @@ body {
   height: 74px;
   text-align: right;
   color: white;
-  background: #13ABAC;
-}
+  background: #13ABAC; }
+
 .Banner:before {
   content: "";
   font-size: 24.7px;
@@ -89,22 +85,22 @@ body {
   border: 1.5em solid #13ABAC;
   left: -2em;
   border-right-width: 1.5em;
-  border-left-color: transparent;
-}
+  border-left-color: transparent; }
+
 .additional-information-container {
   height: 100px;
   margin-left: 23px;
   background: white;
   width: 90.5%;
-  text-align: right;
-}
+  text-align: right; }
+
 .first-break-line {
   margin-top: 180px;
   margin-bottom: 120px;
   width: 50%;
   border-top: 1px solid #8c8b8b;
-  text-align: center;
-}
+  text-align: center; }
+
 .first-break-line:after {
   content: 'JS';
   display: inline-block;
@@ -116,129 +112,122 @@ body {
   font-size: 17px;
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
-  transform: rotate(60deg);
-}
+  transform: rotate(60deg); }
+
 .skills-containers {
   width: 100%;
   margin-top: 40px;
-  text-align: center;
-}
-.Skill-headers{
+  text-align: center; }
+
+.Skill-headers {
   font-size: 3.5vw;
-  margin-bottom: 75px;
-}
+  margin-bottom: 75px; }
+
 .div-icon-container {
   width: 90%;
   display: flex;
   margin: auto;
-  margin-bottom: 45px;
-}
+  margin-bottom: 45px; }
+
 .icon-container {
   margin: auto;
-  font-size: 8vw;
-}
+  font-size: 8vw; }
+
 .line-breaks {
   width: 10%;
   margin-top: 120px;
   margin-bottom: 130px;
-  border-top: 1px solid grey;
-}
-#currently-learning{
-  width: 50%;
-}
+  border-top: 1px solid grey; }
+
+#currently-learning {
+  width: 50%; }
+
 .downloaded-information-container {
   width: 39%;
   margin: auto;
-  display: flex;
-}
-.downloadable-container{
+  display: flex; }
+
+.downloadable-container {
   width: 35%;
   text-align: center;
-  margin: auto;
-}
-#pdfIcon{
-  font-size: 7vw;
-}
-.showcase-container{
-  width: 100%;
-  text-align: center;
+  margin: auto; }
 
-}
-.main-carousel {
-  // display: flex;
-  // overflow:hidden;
-  // position:relative;
-  // width:auto;
-}
+#pdfIcon {
+  font-size: 7vw; }
+
+.showcase-container {
+  width: 100%;
+  text-align: center; }
+
 .flickity-prev-next-button {
   width: 100px;
   height: 100px;
-  background: transparent;
-}
+  background: transparent; }
+
 .flickity-prev-next-button:hover {
-  background: transparent;
-}
+  background: transparent; }
+
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: #13ABAC;
-}
+  fill: #13ABAC; }
+
 .flickity-prev-next-button.no-svg {
-  color: #13ABAC;
-}
+  color: #13ABAC; }
+
 /* hide disabled button */
 .flickity-prev-next-button:disabled {
-  display: none;
-}
-.carousel-cell{
+  display: none; }
+
+.carousel-cell {
   position: relative;
   width: 66%;
-  height: 400px;;
+  height: 400px;
   margin-right: 10px;
-  border-radius: 5px;
-}
-.carousel-cell:before{
+  border-radius: 5px; }
+
+.carousel-cell:before {
   display: block;
   text-align: center;
   line-height: 200px;
   font-size: 80px;
-  color: white;
-}
-.downloads{
-  color:#13abac;
-}
-.downloads:hover{
-  color:#0f8d8e;
-}
+  color: white; }
+
+.downloads {
+  color: #13abac; }
+
+.downloads:hover {
+  color: #0f8d8e; }
+
 #sportsPug-container {
   background: url("../Images/Screen Shot 2017-02-28 at 5.58.29 PM.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
+
 #twitter-clone-container {
   background: url("../Images/Screen Shot 2017-03-01 at 5.01.17 PM.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
+
 #itunes-clone-container {
   background: url("../Images/Screen Shot 2017-03-01 at 6.30.33 PM.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
-#react-tube-container{
+  background-repeat: no-repeat; }
+
+#react-tube-container {
   background: url("../Images/Screen Shot 2017-03-18 at 6.45.49 AM.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
-#react-blog-container{
+  background-repeat: no-repeat; }
+
+#react-blog-container {
   background: url("../Images/Screen Shot 2017-03-18 at 10.55.06 AM.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
-#react-blog-container{
+  background-repeat: no-repeat; }
+
+#react-blog-container {
   background: url("../Images/Screen Shot 2017-03-29 at 8.57.51 PM.png");
   background-size: contain;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
+
 .hidden-visit {
   position: absolute;
   bottom: -1px;
@@ -250,9 +239,10 @@ body {
   opacity: 0;
   background: grey;
   text-align: center;
-  transition: 2.0s;
-}
-.hidden-visit:hover{
+  transition: 2.0s; }
+
+.hidden-visit:hover {
   opacity: .9;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
+/*# sourceMappingURL=into.map */
