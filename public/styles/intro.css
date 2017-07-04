@@ -233,6 +233,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat; }
 
+#wix-inner-strength {
+  background: url("../Images/Screen Shot 2017-07-01 at 4.20.14 PM.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#wordPress-blog {
+  background: url("../Images/Screen Shot 2017-07-03 at 10.05.35 PM.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .hidden-visit {
   position: absolute;
   bottom: -1px;
